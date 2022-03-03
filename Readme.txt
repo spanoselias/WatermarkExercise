@@ -7,3 +7,19 @@ If I have used relation database I would create separate schema for journal and 
 Another approach that we can implement is instead of having a future execute create watermark method,
 to have a schedule task that will fetch all the pending request from processing table and execute the
 create watermark method.
+
+Requires
+---------
+Java 17
+
+How to build
+--------------
+gradle clean build
+
+How to run the application
+--------------------------
+gradle run
+
+How to run tests
+--------------------------
+gradle clean tests
